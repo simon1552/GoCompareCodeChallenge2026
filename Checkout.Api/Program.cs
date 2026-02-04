@@ -1,3 +1,4 @@
+using Checkout.Api.Domain;
 using Checkout.Api.Domain.Services;
 using Checkout.Api.Domain.Services.Interface;
 
@@ -21,3 +22,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseHttpsRedirection();
+
+
+app.UseRouting();
+
+// Enable CORS
+app.UseCors("AllowAll");
+
+app.MapControllers();
+
+app.Run();

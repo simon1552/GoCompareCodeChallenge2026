@@ -1,4 +1,4 @@
-# Build results
+# Build output
 bin/
 obj/
 
@@ -9,29 +9,25 @@ obj/
 # Visual Studio
 .vs/
 
-# User-specific files
+# User files
 *.user
 *.rsuser
 *.suo
 *.userosscache
 *.sln.docstates
 
-# Logs
-*.log
-
-# OS files
+# OS junk
 .DS_Store
 Thumbs.db
 
-# NuGet
-.nuget/
+# Logs
+*.log
 
-# dotnet tools
+# dotnet / sdk caches
 .dotnet/
+.net/
+.net10/
 
-# ASP.NET
+# ASP.NET environment configs
 appsettings.Development.json
 appsettings.Local.json
-
-# Coverage
-coverage/

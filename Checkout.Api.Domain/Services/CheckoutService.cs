@@ -12,7 +12,11 @@ public class CheckoutService: ICheckoutService
     {
         if (request is null) throw new ArgumentNullException(nameof(request));
         
-        List<string> list = request.Sku.Select(c => c.ToString()).ToList();
+        var skuString = new string(request.Sku.Where(c => !char.IsWhiteSpace(c)).ToArray())
+            .ToUpperInvariant();
+
+        List<string> list = skuString.Select(c => c.ToString()).ToList();
+
         var skuList = MapToList(list);
         var discount = GetTotal(skuList);
         

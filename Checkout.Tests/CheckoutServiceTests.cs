@@ -114,11 +114,11 @@ public class CheckoutServiceTests
     }
     
     [Fact]
-    public async Task GivenPriceAsync_WhenRequestIsLowercase_ThenHandledNormallyAndReturns80()
+    public async Task GivenPriceAsync_WhenRequestIsLowercaseAndThereIsWhiteSpace_ThenTrimAndReturns80()
     {
         // Arrange
         var service = new CheckoutService();
-        var request = new CheckoutRequest { Sku = "ab" };
+        var request = new CheckoutRequest { Sku = "a  b" };
 
         // Act
         var total = await service.PriceAsync(request);

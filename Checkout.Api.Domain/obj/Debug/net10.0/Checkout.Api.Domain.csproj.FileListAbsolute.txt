@@ -1,0 +1,14 @@
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\bin\Debug\net10.0\Checkout.Api.Domain.exe
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\bin\Debug\net10.0\Checkout.Api.Domain.deps.json
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\bin\Debug\net10.0\Checkout.Api.Domain.runtimeconfig.json
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\bin\Debug\net10.0\Checkout.Api.Domain.dll
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\bin\Debug\net10.0\Checkout.Api.Domain.pdb
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\obj\Debug\net10.0\Checkout.Api.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\obj\Debug\net10.0\Checkout.Api.Domain.AssemblyInfoInputs.cache
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\obj\Debug\net10.0\Checkout.Api.Domain.AssemblyInfo.cs
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\obj\Debug\net10.0\Checkout.Api.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\obj\Debug\net10.0\Checkout.Api.Domain.dll
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\obj\Debug\net10.0\refint\Checkout.Api.Domain.dll
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\obj\Debug\net10.0\Checkout.Api.Domain.pdb
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\obj\Debug\net10.0\Checkout.Api.Domain.genruntimeconfig.cache
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\obj\Debug\net10.0\ref\Checkout.Api.Domain.dll

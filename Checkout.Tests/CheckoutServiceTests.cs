@@ -29,4 +29,10 @@ public class CheckoutServiceTests
         // Assert
         Assert.Equal(50, result);
     }
+    
+    [Fact]
+    public async Task GivenPriceAsync_WhenCheckoutReceivesMultipleItemsWithoutDiscount_ThenReturnsTotalPrice()
+    {
+        Assert.Fail();
+    }
 }

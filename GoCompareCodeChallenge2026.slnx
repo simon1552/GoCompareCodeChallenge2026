@@ -1,5 +1,5 @@
 <Solution>
   <Project Path="Checkout.Api.Domain\Checkout.Api.Domain.csproj" Type="Classic C#" />
-  <Project Path="Checkout.Api/Checkout.Api.csproj" />
+  <Project Path="Checkout.Api\Checkout.Api.csproj" Type="Classic C#" />
   <Project Path="Checkout.Tests\Checkout.Tests.csproj" Type="Classic C#" />
 </Solution>

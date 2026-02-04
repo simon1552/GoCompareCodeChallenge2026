@@ -18,4 +18,21 @@ public class CheckoutServiceTests
         Assert.Equal(0, results);
 
     }
+    
+    [Theory]
+    [InlineData("A", 50)]
+    [InlineData("B", 30)]
+    [InlineData("C", 20)]
+    [InlineData("D", 15)]
+    public void CheckoutReceivesSingleItemAndReturnsPrice(string item, int price)
+    {
+        // Arrange
+        var checkout = new CheckoutService();
+
+        // Act
+        var result = checkout.Scan(item);
+
+        // Assert
+        Assert.Equal(price, result);
+    }
 }

@@ -1,46 +1,37 @@
-*.swp
-*.*~
-project.lock.json
-.DS_Store
-*.pyc
-nupkg/
+# Build results
+bin/
+obj/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
 
 # Visual Studio
-.vs
-
-# Visual Studio Code
-.vscode
+.vs/
 
 # User-specific files
-*.suo
 *.user
+*.rsuser
+*.suo
 *.userosscache
 *.sln.docstates
 
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-build/
-bld/
-[Bb]in/
-[Oo]bj/
-[Oo]ut/
-msbuild.log
-msbuild.err
-msbuild.wrn
+# Logs
+*.log
 
-# Docker
-.env
+# OS files
+.DS_Store
+Thumbs.db
 
-# Rider / JetBrains / IntelliJ 
-.idea
+# NuGet
+.nuget/
 
-# Artillery Reporting
-loadtest/artillery/*.txt
+# dotnet tools
+.dotnet/
 
-# auto generated *.feature.cs files
-**/*.feature.cs
+# ASP.NET
+appsettings.Development.json
+appsettings.Local.json
+
+# Coverage
+coverage/

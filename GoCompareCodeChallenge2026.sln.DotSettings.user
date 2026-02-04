@@ -1,8 +1,8 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=38b4059e_002D3483_002D4118_002D901a_002D9c404894f438/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from CheckoutServiceTests.cs #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=38b4059e_002D3483_002D4118_002D901a_002D9c404894f438/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from CheckoutServiceTests.cs #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;ProjectFile&gt;32F031BC-DB61-453E-913F-B6F4D25B6AC6/f:CheckoutServiceTests.cs&lt;/ProjectFile&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=80c6a7fd_002Dd0da_002D466d_002Dadfa_002D96307bda7f72/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CheckoutReceivesEmptyStringReturnsZero" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=80c6a7fd_002Dd0da_002D466d_002Dadfa_002D96307bda7f72/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckoutReceivesEmptyStringReturnsZero" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;ProjectFile&gt;32F031BC-DB61-453E-913F-B6F4D25B6AC6/f:CheckoutServiceTests.cs&lt;/ProjectFile&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=91515780_002D2065_002D4e39_002D897e_002Da4d54bb4b2cf/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from CheckoutServiceTests.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;

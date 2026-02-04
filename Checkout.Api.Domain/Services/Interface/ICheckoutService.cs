@@ -1,7 +1,6 @@
 ﻿using Checkout.Api.Domain.Models;
-using Checkout.Api.Domain.Services;
 
-namespace Checkout.Api.Domain.Service.Interface;
+namespace Checkout.Api.Domain.Services.Interface;
 
 public interface ICheckoutService
 {

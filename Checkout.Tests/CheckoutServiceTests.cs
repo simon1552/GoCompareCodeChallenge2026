@@ -1,5 +1,5 @@
 ﻿using Checkout.Api.Domain.Models;
-using Checkout.Api.Domain.Service;
+using Checkout.Api.Domain.Services;
 
 namespace Checkout.Tests;
 
@@ -24,10 +24,10 @@ public class CheckoutServiceTests
         var request = new CheckoutRequest { Sku = "A" };
 
         // Act
-        var result = await checkout.PriceAsync(request);
+        var total = await checkout.PriceAsync(request);
 
         // Assert
-        Assert.Equal(50, result);
+        Assert.Equal(50, total);
     }
     
     [Fact]

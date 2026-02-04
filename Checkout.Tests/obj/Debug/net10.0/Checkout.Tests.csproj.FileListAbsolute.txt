@@ -102,3 +102,16 @@ C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\obj\Debug\
 C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\obj\Debug\net10.0\Checkout.Tests.genruntimeconfig.cache
 C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\obj\Debug\net10.0\ref\Checkout.Tests.dll
 C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\obj\Debug\net10.0\Checkout.Tests.sourcelink.json
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\bin\Debug\net10.0\Checkout.Api.deps.json
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\bin\Debug\net10.0\Checkout.Api.runtimeconfig.json
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\bin\Debug\net10.0\appsettings.json
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\bin\Debug\net10.0\Checkout.Api.staticwebassets.endpoints.json
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\bin\Debug\net10.0\Checkout.Api.exe
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\bin\Debug\net10.0\Program.cs
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\bin\Debug\net10.0\Checkout.Api.dll
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\bin\Debug\net10.0\Checkout.Api.pdb

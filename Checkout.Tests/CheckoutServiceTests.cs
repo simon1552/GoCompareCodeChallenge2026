@@ -43,4 +43,32 @@ public class CheckoutServiceTests
         // Assert
         Assert.Equal(100, result);
     }
+    
+    [Fact]
+    public async Task GivenPriceAsync_WhenRequestIsAAA_ThenReturns130()
+    {
+        // Arrange
+        var service = new CheckoutService();
+        var request = new CheckoutRequest { Sku = "AAA" };
+
+        // Act
+        var total = await service.PriceAsync(request);
+
+        // Assert
+        Assert.Equal(130, total);
+    }
+    
+    [Fact]
+    public async Task GivenPriceAsync_WhenRequestIsAAABB_ThenReturns175()
+    {
+        // Arrange
+        var service = new CheckoutService();
+        var request = new CheckoutRequest { Sku = "AAABB" };
+
+        // Act
+        var total = await service.PriceAsync(request);
+
+        // Assert
+        Assert.Equal(175, total);
+    }
 }

@@ -15,6 +15,12 @@ public class CheckoutService
         
         if (request.Sku == "AA")
             return Task.FromResult(100);
+        
+        if (request.Sku == "AAA")
+            return Task.FromResult(130);
+        
+        if (request.Sku == "AAABB")
+            return Task.FromResult(175);
 
         return Task.FromResult(0);
     }

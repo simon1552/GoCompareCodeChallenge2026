@@ -1,6 +1,4 @@
-﻿using Checkout.Api.Domain.Models;
-
-namespace Checkout.Api.Domain.Services;
+﻿namespace Checkout.Api.Domain.Models;
 
 public class ValidSku
 {

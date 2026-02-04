@@ -10,7 +10,11 @@ public class CheckoutService: ICheckoutService
 
     public Task<int> PriceAsync(CheckoutRequest request)
     {
-        if (request is null) throw new ArgumentNullException(nameof(request));
+        if (request is null)
+            throw new ArgumentNullException(nameof(request), "Checkout request cannot be null.");
+        
+        if (request.Sku is null)
+            throw new ArgumentNullException(nameof(request.Sku), "SKU string cannot be null.");
         
         var skuString = new string(request.Sku.Where(c => !char.IsWhiteSpace(c)).ToArray())
             .ToUpperInvariant();

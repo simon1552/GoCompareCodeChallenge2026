@@ -17,7 +17,7 @@ public class CheckoutServiceTests
     }
     
     [Fact]
-    public async Task GivenPriceAsync_WhenCheckoutReceivesSingleItem_ThenReturnsPrice()
+    public async Task GivenPriceAsync_WhenCheckoutReceivesSingleItem_ThenReturns50()
     {
         // Arrange
         var checkout = new CheckoutService();
@@ -31,7 +31,7 @@ public class CheckoutServiceTests
     }
     
     [Fact]
-    public async Task GivenPriceAsync_WhenCheckoutReceivesMultipleItemsWithoutDiscount_ThenReturnsTotalPrice()
+    public async Task GivenPriceAsync_WhenCheckoutReceivesMultipleItemsWithoutDiscount_ThenReturns100()
     {
         // Arrange
         var checkout = new CheckoutService();
@@ -42,6 +42,34 @@ public class CheckoutServiceTests
 
         // Assert
         Assert.Equal(100, result);
+    }
+    
+    [Fact]
+    public async Task GivenPriceAsync_WhenRequestIsAB_ThenReturns80()
+    {
+        // Arrange
+        var service = new CheckoutService();
+        var request = new CheckoutRequest { Sku = "AB" };
+
+        // Act
+        var total = await service.PriceAsync(request);
+
+        // Assert
+        Assert.Equal(80, total);
+    }
+    
+    [Fact]
+    public async Task GivenPriceAsync_WhenRequestIsCDBA_ThenReturns115()
+    {
+        // Arrange
+        var service = new CheckoutService();
+        var request = new CheckoutRequest { Sku = "CDBA" };
+
+        // Act
+        var total = await service.PriceAsync(request);
+
+        // Assert
+        Assert.Equal(115, total);
     }
     
     [Fact]
@@ -70,6 +98,33 @@ public class CheckoutServiceTests
 
         // Assert
         Assert.Equal(175, total);
+    }
+    
+    //Edge case
+    [Fact]
+    public async Task GivenPriceAsync_WhenRequestIsNull_ThenThrowsArgumentNullException()
+    {
+        // Arrange
+        var service = new CheckoutService();
+        var request = new CheckoutRequest { Sku = null! };
+            
+        // Act // Assert
+        await Assert.ThrowsAsync<ArgumentNullException>(async () =>
+            await service.PriceAsync(request));
+    }
+    
+    [Fact]
+    public async Task GivenPriceAsync_WhenRequestIsLowercase_ThenHandledNormallyAndReturns80()
+    {
+        // Arrange
+        var service = new CheckoutService();
+        var request = new CheckoutRequest { Sku = "ab" };
+
+        // Act
+        var total = await service.PriceAsync(request);
+
+        // Assert
+        Assert.Equal(80, total);
     }
 
 }

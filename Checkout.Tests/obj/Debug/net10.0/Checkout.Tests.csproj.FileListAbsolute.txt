@@ -101,3 +101,4 @@ C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\obj\Debug\
 C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\obj\Debug\net10.0\Checkout.Tests.pdb
 C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\obj\Debug\net10.0\Checkout.Tests.genruntimeconfig.cache
 C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\obj\Debug\net10.0\ref\Checkout.Tests.dll
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Tests\obj\Debug\net10.0\Checkout.Tests.sourcelink.json

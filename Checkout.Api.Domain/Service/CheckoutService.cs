@@ -3,9 +3,13 @@
 public class CheckoutService
 {
 
-    public void Scan(String item)
+    public int Scan(String item)
     {
-        throw new NotImplementedException();
+        if (item == null) 
+        {
+            return 0;
+        }
+        return 1;
     }
     
     public int GetTotal()

@@ -15,7 +15,7 @@ public class CheckoutServiceTests
         var results = checkout.GetTotal();
 
         //Assert
-        Assert.Fail();
+        Assert.Equal(0, results);
 
     }
 }

@@ -12,3 +12,4 @@ C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\obj\D
 C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\obj\Debug\net10.0\Checkout.Api.Domain.pdb
 C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\obj\Debug\net10.0\Checkout.Api.Domain.genruntimeconfig.cache
 C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\obj\Debug\net10.0\ref\Checkout.Api.Domain.dll
+C:\Users\Simon\source\repos\GoCompareCodeChallenge2026\Checkout.Api.Domain\obj\Debug\net10.0\Checkout.Api.Domain.sourcelink.json

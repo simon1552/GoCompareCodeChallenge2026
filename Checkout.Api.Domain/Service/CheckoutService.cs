@@ -1,30 +1,19 @@
-﻿namespace Checkout.Api.Domain.Service;
+﻿using Checkout.Api.Domain.Models;
+
+namespace Checkout.Api.Domain.Service;
 
 public class CheckoutService
 {
 
-    public int Scan(String item)
+    public Task<int> PriceAsync(CheckoutRequest request)
     {
-        if (item == null) 
-        {
-            return 0;
-        }
-        switch (item)
-        {
-            case "A":
-                return 50;
-            case "B":
-                return 30;
-            case "C":
-                return 20;
-            case "D":
-                return 15;
-        }
-        return 1;
+        if (request is null)
+            return Task.FromResult(0);
+
+        if (request.Sku == "A")
+            return Task.FromResult(50);
+
+        return Task.FromResult(0);
     }
-    
-    public int GetTotal()
-    {
-        return 0; 
-    }
+
 }

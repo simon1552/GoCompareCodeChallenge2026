@@ -1,38 +1,32 @@
-﻿using Checkout.Api.Domain.Service;
+﻿using Checkout.Api.Domain.Models;
+using Checkout.Api.Domain.Service;
 
 namespace Checkout.Tests;
 
 public class CheckoutServiceTests
 {
     [Fact]
-    public void CheckoutReceivesEmptyStringReturnsZero()
+    public async Task GivenPriceAsync_WhenEmptyRequest_ThenReturnsZero()
     {
-        //Arrange
-        var checkout = new CheckoutService();
-        
-        //Act
-        checkout.Scan("");
-        var results = checkout.GetTotal();
+        var svc = new CheckoutService();
+        var request = new CheckoutRequest { Sku = "" };
 
-        //Assert
-        Assert.Equal(0, results);
+        var total = await svc.PriceAsync(request);
 
+        Assert.Equal(0, total);
     }
     
-    [Theory]
-    [InlineData("A", 50)]
-    [InlineData("B", 30)]
-    [InlineData("C", 20)]
-    [InlineData("D", 15)]
-    public void CheckoutReceivesSingleItemAndReturnsPrice(string item, int price)
+    [Fact]
+    public async Task GivenPriceAsync_WhenCheckoutReceivesSingleItem_ThenReturnsPrice()
     {
         // Arrange
         var checkout = new CheckoutService();
+        var request = new CheckoutRequest { Sku = "A" };
 
         // Act
-        var result = checkout.Scan(item);
+        var result = await checkout.PriceAsync(request);
 
         // Assert
-        Assert.Equal(price, result);
+        Assert.Equal(50, result);
     }
 }

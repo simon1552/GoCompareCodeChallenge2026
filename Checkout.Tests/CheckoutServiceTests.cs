@@ -71,4 +71,5 @@ public class CheckoutServiceTests
         // Assert
         Assert.Equal(175, total);
     }
+
 }

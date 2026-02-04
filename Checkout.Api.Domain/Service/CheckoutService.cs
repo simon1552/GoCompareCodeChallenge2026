@@ -1,12 +1,17 @@
 ﻿using Checkout.Api.Domain.Models;
+using Checkout.Api.Domain.Service.Interface;
+using Checkout.Api.Domain.Services;
 
 namespace Checkout.Api.Domain.Service;
 
-public class CheckoutService
+public class CheckoutService: ICheckoutService
 {
+    public ValidDiscounts ValidDiscounts { get; }
+    public ValidSku ValidSku { get; }
 
     public Task<int> PriceAsync(CheckoutRequest request)
     {
+
         return Task.FromResult(0);
     }
     

@@ -8,6 +8,5 @@
         
         public int Threshold { get; set; }
         
-        
     }    
 }

@@ -21,8 +21,15 @@ public class CheckoutService
         
         if (request.Sku == "AAABB")
             return Task.FromResult(175);
-
+        
         return Task.FromResult(0);
+    }
+    
+    private int GetTotal(List<Sku> skuList)
+    {
+        var grossTotal = skuList.Sum(sku => sku.Price);
+
+        return grossTotal;
     }
 
 }

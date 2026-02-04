@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Checkout.Api.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4c5ca96bcb2006a2a864ca20e1eb9ac7dab1982")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+884c80ede22860cfb236f114d555511859f46e37")]
 [assembly: System.Reflection.AssemblyProductAttribute("Checkout.Api.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Checkout.Api.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

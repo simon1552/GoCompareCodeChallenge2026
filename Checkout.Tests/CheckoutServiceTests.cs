@@ -33,6 +33,14 @@ public class CheckoutServiceTests
     [Fact]
     public async Task GivenPriceAsync_WhenCheckoutReceivesMultipleItemsWithoutDiscount_ThenReturnsTotalPrice()
     {
-        Assert.Fail();
+        // Arrange
+        var checkout = new CheckoutService();
+        var request = new CheckoutRequest { Sku = "AA" };
+
+        // Act
+        var result = await checkout.PriceAsync(request);
+
+        // Assert
+        Assert.Equal(100, result);
     }
 }
